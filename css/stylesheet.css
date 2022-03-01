@@ -1,0 +1,491 @@
+body {
+    margin: 0;
+    font-family: moniker, sans-serif;
+    font-size: 24px;
+}
+
+nav {
+    position: fixed;
+    box-shadow: 0px 5px 5px #00000029;
+    width: 100%;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    background: white;
+    top: 0;
+}
+
+/* Logo in navigation bar */
+
+.logo-small {
+    width: 90px;
+    height: 90px;
+}
+
+/* Navigation links */
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px;
+}
+
+.nav-links li {
+    cursor: pointer;
+}
+
+.nav-links li:hover {
+    color: #F28D2C;
+}
+
+/* Download buttons in navigation bar*/
+
+.download {
+    display: flex;
+    align-items: center;
+}
+
+.download i {
+    margin-left: 22px;
+    margin-right: 25px;
+    font-size: 34px;
+    color: #F28D2C;
+    cursor: pointer;
+}
+
+.download h4 {
+    margin-right: 20px;
+    margin-left: 70px;
+    cursor: pointer;
+}
+
+/* Landing page text and buttons */
+ 
+.welcome-text-big {
+    margin-left: 140px;
+    margin-top: 190px;
+    width: 500px;
+    margin-bottom: 0;
+}
+
+.welcome-text-small {
+    margin-top: 15px;
+    margin-left: 140px;
+    width: 370px;
+    font-size:x-large;
+}
+
+.downloadbutton1 {
+    width: 315px;
+    height:72px;
+    margin-left: 140px;
+    margin-top: 30px;
+    background-color: #F28D2C;
+    border-radius: 21px;
+    border-style: none;
+    color: white;
+    font-size: 20px;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.downloadbutton1 i {
+    color: white;
+    margin-left: 15px;
+    margin-right: 13px;
+    font-size: 30px;
+}
+
+.downloadbutton1:hover {
+    box-shadow: 7px 6px 5px black;
+    transition: box-shadow 0.2s ease-in-out;
+}
+
+/* How it works section*/
+
+.hoe-het-werkt {
+    font-size: 23px;
+    margin-left: 140px;
+    cursor: pointer;
+    width: 240px;
+}
+
+.hoe-het-werkt i {
+    font-size: 18px;
+    margin-left: 10px;
+    color: #41C0F0;
+}
+
+.hoe-het-werkt:hover i {    
+    margin-left: 25px;
+    transition: margin-left 0.5s ease;
+}
+
+.logo-big {
+    position: absolute;
+    width: 400px;
+    top: 145px;
+    right: 280px;
+}
+
+.section1-intro {
+    text-align: center;
+    margin-top: 250px;
+}
+
+.section1-title {
+    color: #F28D2C;
+    font-style: italic;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.section1-text {
+    color: #393835;
+    font-weight: 500;
+    margin: 0;
+}
+
+.background1 {
+    background-color: #F28D2C;
+    box-shadow: inset 1px 1px 15px rgba(0, 0, 0, 0.404);
+    position: absolute;
+    top: 1100px;
+    height: 150px;
+    width: 90%;
+    right: 0;
+    border-bottom-left-radius: 100px;
+    border-top-left-radius: 100px;
+
+}
+
+.background1-text {
+    width: 35%;
+    font-weight: 400;
+    font-size: 22px;
+    position: absolute;
+    top: 1130px;
+    left: 20%;
+    color: white;
+}
+
+.background1-number {
+    position: absolute;
+    top: 1045px;
+    left: 14%; 
+    font-size: 100px;
+    color: white;
+}
+
+.background2 {
+    background-color: #41C0F0;
+    box-shadow: inset 1px 1px 15px rgba(0, 0, 0, 0.404);
+    position: absolute;
+    top: 1290px;
+    height: 150px;
+    width: 90%;
+    right: 0;
+    border-bottom-left-radius: 100px;
+    border-top-left-radius: 100px;
+}
+
+.background2-text {
+    width: 35%;
+    font-weight: 400;
+    font-size: 22px;
+    position: absolute;
+    top: 1300px;
+    left: 20%;
+    color: white;
+}
+
+.background2-number {
+    position: absolute;
+    top: 1235px;
+    left: 14%; 
+    font-size: 100px;
+    color: white;
+}
+
+.background3 {
+    background-color: #8DC39F;
+    box-shadow: inset 1px 1px 15px rgba(0, 0, 0, 0.404);
+    position: absolute;
+    top: 1480px;
+    height: 150px;
+    width: 90%;
+    right: 0;
+    border-bottom-left-radius: 100px;
+    border-top-left-radius: 100px;
+}
+
+.background3-text {
+    width: 35%;
+    font-weight: 400;
+    font-size: 22px;
+    position: absolute;
+    top: 1510px;
+    left: 20%;
+    color: white;
+}
+
+.background3-number {
+    position: absolute;
+    top: 1425px;
+    left: 14%; 
+    font-size: 100px;
+    color: white;
+}
+
+.app-image {
+    position: absolute;
+    right: 9%;
+    height: 690px;
+    overflow: visible;
+    top: 1020px;
+}
+
+/* Benefits section */
+
+.section2-intro {
+    text-align: center;
+    margin-top: 1000px;
+}
+
+.section2-title {
+    color: #F28D2C;
+    font-style: italic;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.section2-text {
+    color: #393835;
+    font-weight: 500;
+    margin: 0px;
+}
+
+.section2 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.section2 img {
+    width: 240px;
+}
+
+.section2 div h4 {
+    width: 340px;
+    margin-bottom: 0px;
+}
+
+.section2 div p {
+    font-size: 16px;
+    width: 340px;
+}
+
+/* Prizes section */
+
+.section3-intro {
+    text-align: center;
+    margin-top: 200px;
+}
+
+.section3-title {
+    color: #F28D2C;
+    font-style: italic;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.section3-text {
+    color: #393835;
+    font-weight: 500;
+    margin: 0px;
+}
+
+.background4 {
+    background-color: #F28D2C;
+    box-shadow: inset 1px 1px 15px rgba(0, 0, 0, 0.404);
+    position: absolute;
+    top: 2950px;
+    height: 150px;
+    width: 60%;
+    left: 0;
+    border-bottom-right-radius: 100px;
+    border-top-right-radius: 100px;
+}
+
+.background4-persons {
+    width: 35%;
+    font-weight: 600;
+    font-size: 48px;
+    position: absolute;
+    top: 2965px;
+    left: 5%;
+    color: white;
+}
+
+.background4-price {
+    width: 250px;
+    font-weight: 500px;
+    font-size: 30px;
+    position: absolute;
+    top: 2960px;
+    left: 38%;
+    color: white;
+}
+
+.background5 {
+    background-color: #41C0F0;
+    box-shadow: inset 1px 1px 15px rgba(0, 0, 0, 0.404);
+    position: absolute;
+    top: 3150px;
+    height: 150px;
+    width: 60%;
+    right: 0;
+    border-bottom-left-radius: 100px;
+    border-top-left-radius: 100px;
+}
+
+.background5-persons {
+    width: 35%;
+    font-weight: 600;
+    font-size: 48px;
+    position: absolute;
+    top: 3165px;
+    right: 19%;
+    color: white;
+}
+
+.background5-price {
+    width: 250px;
+    font-weight: 500px;
+    font-size: 30px;
+    position: absolute;
+    top: 3165px;
+    right: 5%;
+    color: white;
+}
+
+.background6 {
+    background-color: #8DC39F;
+    box-shadow: inset 1px 1px 15px rgba(0, 0, 0, 0.404);
+    position: absolute;
+    top: 3350px;
+    height: 150px;
+    width: 60%;
+    left: 0;
+    border-bottom-right-radius: 100px;
+    border-top-right-radius: 100px;
+}
+
+.background6-persons {
+    width: 35%;
+    font-weight: 600;
+    font-size: 48px;
+    position: absolute;
+    top: 3365px;
+    left: 5%;
+    color: white;
+}
+
+.background6-price {
+    width: 250px;
+    font-weight: 500px;
+    font-size: 30px;
+    position: absolute;
+    top: 3360px;
+    left: 38%;
+    color: white;
+}
+
+/* App section */
+
+.section4 {
+    margin-top: 900px;
+    margin-left: 9%;
+}
+
+.section4-title {
+    color: #F28D2C;
+    font-style: italic;
+    font-weight: 400;
+    margin-bottom: 15px;
+    width: 300px;
+}
+
+.section4-text {
+    color: #393835;
+    font-weight: 600;
+    margin: 0px;
+    width: 500px;
+}
+
+.download-apple {
+    width: 315px;
+    height:72px;
+    margin-top: 30px;
+    background-color: #F28D2C;
+    border-radius: 21px;
+    border-style: none;
+    color: white;
+    font-size: 20px;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.download-apple i {
+    color: white;
+    font-size: 30px;
+    margin-right: 18px;
+}
+
+.download-apple:hover {
+    box-shadow: 7px 6px 5px black;
+    transition: box-shadow 0.2s ease-in-out;
+}
+
+.download-android {
+    width: 315px;
+    height:72px;
+    margin-top: 15px;
+    background-color: #F28D2C;
+    border-radius: 21px;
+    border-style: none;
+    color: white;
+    font-size: 20px;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.download-android i {
+    color: white;
+    font-size: 30px;
+    margin-right: 18px;
+}
+
+.download-android:hover {
+    box-shadow: 7px 6px 5px black;
+    transition: box-shadow 0.2s ease-in-out;
+}
+ 
+.qr-code {
+    width: 180px;
+    margin-top: 50px;
+    border-style: dashed;
+    border-width: thick;
+    border-color: #F28D2C;
+    padding: 15px;
+    border-radius: 25px;
+}
+
+.section4-image {
+    width: 600px;
+    position: absolute;
+    left: 770px;
+    top: 3850px;
+}
